@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    unsigned row=0;
+    unsigned col=0;
+    unsigned sum=0;
+    cin>>row>>col;
+    int** arr=new int*[row] ;
+    for(int i=0;i<row;i++)
+    {
+        arr[i]=new int[col];
+        for(int j=0;j<col;j++)
+        {
+            cin>>arr[i][j];
+        }
+    }int arr1[row][col];
+  for(int i=0;i<row;i++){
+      sum=arr[i,i];
+       
+      }
+       for(int j=0;j<col;j++){
+           sum+=arr[i,col-i-i];
+       }
+   }
+   for(int i=0;i<row;i++){
+       for(int j=0;j<col;j++){
+           cout<<arr1[i][j]<<" ";
+       }
+       cout<<endl;
+   }
+   return 0;
+}
+    
+
+   
