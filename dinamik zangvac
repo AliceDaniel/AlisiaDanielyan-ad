@@ -50,3 +50,64 @@ int main()
    cout<<endl<<"sum="<<sum;
     return 0;
 }
+stugel  zangvacum ka  stexnasharic  mutqagrac  tivy
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    const int n=5;
+    int arr[n]={1,2,3,4,5};
+    int k;
+    cin>>k;
+    bool a=false;
+    
+    for(int i=0;i<n;i++){
+        if(arr[i]==k){
+     a=true; 
+     break;
+    }
+    }
+    if( a){
+        cout<<"aydpisi tiv ka";
+    }else{
+        cout<<"chka";
+    }
+    
+    return 0;
+}
+zangavcy  achox,nvazox te neytral e
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    const int n=5;
+    int a[n]={0};
+    for(int i=0;i<n;++i)
+{
+    cin>>a[i];
+}
+for(int i=0;i<n;++i)
+{
+    if(a[i]>a[i+1])
+    {
+        cout<<"ubivayushaya";
+        break;
+    }
+    else if(a[i]<a[i+1])
+    {
+        cout<<"vozrostayushaya";
+        break;
+    }
+    else
+    {
+        cout<<"neitral";
+        break;
+    }
+    
+}
+    return 0;
+}
